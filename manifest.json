@@ -1,0 +1,26 @@
+{
+  "manifest_version": 2,
+  "name": "Is This a Dating Website",
+  "description": "easily check to see if you should send that DM or not",
+  "permissions": ["tabs"],
+  "version": "3.0.0",
+  "browser_action": {
+    "default_icon": "512.png",
+    "default_popup": "popup.html"
+  },
+
+  "content_scripts": [
+    {
+      "matches": [
+        "http://github.com/*",
+        "https://github.com/*",
+        "http://*.github.com/*",
+        "https://*.github.com/*"
+      ],
+      "js": ["popup.js"]
+    }
+  ],
+  "background": {
+    "scripts": ["background.js"]
+  }
+}
