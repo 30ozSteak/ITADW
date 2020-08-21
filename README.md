@@ -5,9 +5,12 @@ A Chrome Extensions that aims to deter unsolicited DMs on the internet 🙅‍�
 <br>
 <br>
 
-# Version
+# Release Notes
 
-0. 1
+#### Version 0. 1
+
+- initial release, add extension, add readme with contribution notes, guidelines, hopes & dreams for a better web
+  <br><br><br>
 
 # Motivation
 

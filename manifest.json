@@ -3,7 +3,7 @@
   "name": "Is This a Dating Website",
   "description": "easily check to see if you should send that DM or not",
   "permissions": ["tabs"],
-  "version": "1.0.0",
+  "version": "0.0.1",
   "browser_action": {
     "default_icon": "512.png",
     "default_popup": "popup.html"
