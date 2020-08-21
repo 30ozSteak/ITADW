@@ -3,7 +3,6 @@
 A Chrome Extensions that aims to deter unsolicited DMs on the internet 🙅‍♀️🙅‍♂️🙅
 
 <br>
-<br>
 
 # Release Notes
 
@@ -45,15 +44,24 @@ Currently this is written in Javascript with inline styles. I'd be very open to 
 - Ensure _Developer Mode_ is turned on
 - click Load Unpacked, select the downloaded file and add it to your extensions.
 
-You'll see the NO DM logo in your extension bar if it was installed correctly. Once you visit any of the supported websites, you'll be prompted with the red banner.
+You'll see the **NO DM** logo in your extension bar if it was installed correctly. Once you visit any of the supported websites, you'll be prompted with the red banner.
 
 # Contribute
 
-This project is very much in it's infancy but I can see it becoming a very powerful tool to curve and hopefully eventually prevent toxic behavior on the internet. I'll be compiling a list of issues and future features over the next few days.
+This project is very much in it's infancy but I can see it becoming a very powerful tool to curve and eventually prevent toxic behavior on the internet. I'll be compiling a list of issues and future features over the next few days.
+
+- Fork this repo
+- Clone it to your local machine
+- Make a new feature branch, named accordingly
+- Make changes
+- Push to the repo
+- Click the Compare & Pull Request button
+- Click Create Pull Request
 
 # Adding websites for the extension to execute on
 
-Inside the `manifest.json` file is a `matches` array within `content_scripts`. Here you can add websites to have the extension respond to. Regular expressions are permitted.
+Inside the `manifest.json` file is a `matches` array within `content_scripts` array. <br>
+Here you can add a URL to have the extension respond to. Regular expressions are permitted.
 Example: `https://*.github.com/*` matches all https websites that include `github.com` in their url
 
 # Credits
