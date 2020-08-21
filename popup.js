@@ -15,7 +15,11 @@ newDiv.appendChild(newParagraph);
 newDiv.appendChild(closeButton);
 closeButton.appendChild(buttonInner);
 
-closeButton.addEventListener("click", () => changeHeight());
+closeButton.addEventListener("click", () => removeBanner());
+
+function removeBanner() {
+  newDiv.remove();
+}
 
 var sheet = document.createElement("style");
 
@@ -49,7 +53,3 @@ closeButton.style = `
 `;
 
 document.body.appendChild(sheet);
-
-function changeHeight() {
-  newDiv.style = `height: 0px`;
-}
