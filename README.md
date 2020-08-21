@@ -16,7 +16,7 @@ A Chrome Extensions that aims to deter unsolicited DMs on the internet 🙅‍�
 
 One of the most worst experiences I've witnessed as a developer is watching my peers express their intent to drop out of the industry out of sheer exhaustion from the number of inappropriate and unwanted messages they receive.
 
-Be it _reply-guys_ condescendingly correcting them (read: _negging_), or _sexual-predators_ sliding into DMs with disgusting comments, they're overwhelmed by the amount of mental energy it takes to simply exist in this space.
+Be it _reply-guys_ condescendingly correcting or questioning them (read: _negging_), or _sexual-predators_ sliding into DMs with disgusting comments, they're overwhelmed by the amount of mental energy it takes to simply exist in this space.
 
 The industry is notorious for it's lack of diversity and is a breeding ground for _tech bro_ culture.
 
